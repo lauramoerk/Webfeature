@@ -1,3 +1,140 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family:"strippyregular";
+  src: url("./fonts/strippy-regular-webfont.woff");
+}
+
+@layer components{
+    .bggrain {
+        top: -50%;
+        left: -50%;
+        right: -50%;
+        bottom: -50%;
+        width: 200%;
+        height: 200vh;
+        background: transparent url('http://assets.iceable.com/img/noise-transparent.png') repeat 0 0;
+        background-repeat: repeat;
+        opacity: 0.9;
+        visibility: visible;
+      }
+      
+      .offset {
+        height: 100vh;
+      }
+
+  h2 {display: inline-block;
+          vertical-align: top;
+          transform: translateY(100px) scale(1);
+          }
+        
+   .h21{
+    margin-top:500px;
+
+   }
+
+   .h22{
+    margin-top:500px;
+
+   }
+
+   
+   .h23{
+    margin-top:500px;
+   }
+
+   
+   .h24{
+    margin-top:500px;
+    
+   }
+
+   
+   .h25{
+    margin-top:500px;
+  
+   }
+
+   html,body{
+    padding:0;
+    margin:0;
+  }
+
+  #container {
+    background-color:grey;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+    height:100vh;
+  }
+  
+  .module{
+    height:100%;
+    display:flex;
+  }
+  
+  .green{
+    width:500px;
+    background-color:green;
+  }
+  
+  .yellow{
+    width:1300px;
+    background-color:yellow;
+  }
+  
+  .purple{
+    width:800px;
+    background-color:purple;
+  }
+  
+  .orange{
+    width:800px;
+    background-color:purple;
+  }
+  
+  .blue{
+    width:2100px;
+    background-color:blue;
+  }
+  
+  .red{
+    width:900px;
+    background-color:red;
+  }
+
+
+  section {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bg {
+    position: absolute;
+    top: 0;
+    left: 25%;
+    width: 50%;
+    height: 80%;
+    z-index: -1;
+    opacity:0.5;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+  }
+  
+  h1 {
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    z-index: 1;
+    font-size: 3em;
+    font-weight: 400;
+  }
+  
+}  
+
